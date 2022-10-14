@@ -1214,6 +1214,7 @@ window.__require = function e(t, n, o) {
             n.getComponent(cc.PhysicsCircleCollider).radius = 0;
             // 让说过更 Q 弹
             if (fruitQTan) {
+              let fruitQTan=0.9;
               n.getComponent(cc.PhysicsCircleCollider).restitution = fruitQTan;
             }
             n.getComponent(cc.PhysicsCircleCollider).apply();
